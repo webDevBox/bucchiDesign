@@ -3,566 +3,653 @@
 <!-- BEGIN: Head-->
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-<meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-<meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
-<meta name="author" content="PIXINVENT">
-<title>Bucchi's</title>
-<link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
-<link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Bucchi's</title>
+    <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
 
-<!-- BEGIN: Vendor CSS-->
-<link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
-<link rel="stylesheet" type="text/css" href="app-assets/vendors/css/charts/apexcharts.css">
-<link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/toastr.min.css">
-<!-- END: Vendor CSS-->
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/charts/apexcharts.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/toastr.min.css">
+    <!-- END: Vendor CSS-->
 
-<!-- BEGIN: Theme CSS-->
-<link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/colors.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/components.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/themes/dark-layout.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/themes/bordered-layout.css">
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/themes/bordered-layout.css">
 
-<!-- BEGIN: Page CSS-->
-<link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/pages/dashboard-ecommerce.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/plugins/charts/chart-apex.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/ext-component-toastr.css">
-<!-- END: Page CSS-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/dashboard-ecommerce.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/charts/chart-apex.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/ext-component-toastr.css">
+    <!-- END: Page CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- BEGIN: Custom CSS-->
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="app-assets/css/multi-form.css">
-<!-- END: Custom CSS-->
-<style>
-.dropdown:hover .dropdown-content {display: block;}
-
-
-.block {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.button-block {
-  margin-top: 10px;
-  text-align: right;
-}
-
-.move-up,
-.move-down,
-.delete {
-  margin-left: 5px;
-}
-
-.input-field {
-  display: block;
-  margin-bottom: 5px;
-  padding: 5px;
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-#add-block {
-  margin-top: 10px;
-}
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/multi-form.css">
+    <!-- END: Custom CSS-->
+    <style>
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
 
-</style>
+        .block {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .button-block {
+            margin-top: 10px;
+            text-align: right;
+        }
+
+        .move-up,
+        .move-down {
+            background-color: #7367F0;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 6px 12px;
+            margin-right: 5px;
+        }
+
+
+        .delete {
+            background-color: #ea5455;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 6px 12px;
+        }
+
+        .input-field {
+            display: block;
+            margin-bottom: 5px;
+            padding: 5px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #add-block {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <!-- END: Head-->
 
 <!-- BEGIN: Body-->
 
-<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static   menu-collapsed" data-open="click" data-menu="vertical-menu-modern" data-col="">
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static   menu-collapsed" data-open="click"
+    data-menu="vertical-menu-modern" data-col="">
 
-<!-- BEGIN: Header-->
-<nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">
-<div class="navbar-container d-flex content">
-<div class="bookmark-wrapper d-flex align-items-center">
-    <ul class="nav navbar-nav d-xl-none">
-        <li class="nav-item"><a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon" data-feather="menu"></i></a></li>
-    </ul>
-    <ul  class="nav navbar-nav align-items-center ml-auto">
-        <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            
-            <span class="avatar"><img class="round" src="app-assets/images/portrait/small/avatar-s-11.jpg" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span>
-            <div class="user-nav d-sm-flex d-none"><span class="user-name font-weight-bolder">John Doe</span><span class="user-status">Admin</span></div>
-        </a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user"><a class="dropdown-item" href="page-profile.html"><i class="mr-50" data-feather="user"></i> Profile</a><a class="dropdown-item" href="app-email.html"><i class="mr-50" data-feather="mail"></i> Inbox</a><a class="dropdown-item" href="app-todo.html"><i class="mr-50" data-feather="check-square"></i> Task</a><a class="dropdown-item" href="app-chat.html"><i class="mr-50" data-feather="message-square"></i> Chats</a>
-            <div class="dropdown-divider"></div><a class="dropdown-item" href="page-account-settings.html"><i class="mr-50" data-feather="settings"></i> Settings</a><a class="dropdown-item" href="page-pricing.html"><i class="mr-50" data-feather="credit-card"></i> Pricing</a><a class="dropdown-item" href="page-faq.html"><i class="mr-50" data-feather="help-circle"></i> FAQ</a><a class="dropdown-item" href="page-auth-login-v2.html"><i class="mr-50" data-feather="power"></i> Logout</a>
-        </div>
-    </li>
-    </ul>
-</div>
-<ul class="nav navbar-nav align-items-center ml-auto">
+    <!-- BEGIN: Header-->
+    <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">
+        <div class="navbar-container d-flex content">
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item"><a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon"
+                                data-feather="menu"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav align-items-center ml-auto">
+                    <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link"
+                            id="dropdown-user" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
 
-</ul>
-</div>
-</nav>
-<ul class="main-search-list-defaultlist d-none">
-<li class="d-flex align-items-center"><a href="javascript:void(0);">
-<h6 class="section-label mt-75 mb-0">Files</h6>
-</a></li>
-<li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100" href="app-file-manager.html">
-<div class="d-flex">
-<div class="mr-75"><img src="app-assets/images/icons/xls.png" alt="png" height="32"></div>
-<div class="search-data">
-<p class="search-data-title mb-0">Two new item submitted</p><small class="text-muted">Marketing Manager</small>
-</div>
-</div><small class="search-data-size mr-50 text-muted">&apos;17kb</small>
-</a></li>
-<li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100" href="app-file-manager.html">
-<div class="d-flex">
-<div class="mr-75"><img src="app-assets/images/icons/jpg.png" alt="png" height="32"></div>
-<div class="search-data">
-<p class="search-data-title mb-0">52 JPG file Generated</p><small class="text-muted">FontEnd Developer</small>
-</div>
-</div><small class="search-data-size mr-50 text-muted">&apos;11kb</small>
-</a></li>
-<li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100" href="app-file-manager.html">
-<div class="d-flex">
-<div class="mr-75"><img src="app-assets/images/icons/pdf.png" alt="png" height="32"></div>
-<div class="search-data">
-<p class="search-data-title mb-0">25 PDF File Uploaded</p><small class="text-muted">Digital Marketing Manager</small>
-</div>
-</div><small class="search-data-size mr-50 text-muted">&apos;150kb</small>
-</a></li>
-<li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100" href="app-file-manager.html">
-<div class="d-flex">
-<div class="mr-75"><img src="app-assets/images/icons/doc.png" alt="png" height="32"></div>
-<div class="search-data">
-<p class="search-data-title mb-0">Anna_Strong.doc</p><small class="text-muted">Web Designer</small>
-</div>
-</div><small class="search-data-size mr-50 text-muted">&apos;256kb</small>
-</a></li>
-<li class="d-flex align-items-center"><a href="javascript:void(0);">
-<h6 class="section-label mt-75 mb-0">Members</h6>
-</a></li>
-<li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100" href="app-user-view.html">
-<div class="d-flex align-items-center">
-<div class="avatar mr-75"><img src="app-assets/images/portrait/small/avatar-s-8.jpg" alt="png" height="32"></div>
-<div class="search-data">
-<p class="search-data-title mb-0">John Doe</p><small class="text-muted">UI designer</small>
-</div>
-</div>
-</a></li>
-<li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100" href="app-user-view.html">
-<div class="d-flex align-items-center">
-<div class="avatar mr-75"><img src="app-assets/images/portrait/small/avatar-s-1.jpg" alt="png" height="32"></div>
-<div class="search-data">
-<p class="search-data-title mb-0">Michal Clark</p><small class="text-muted">FontEnd Developer</small>
-</div>
-</div>
-</a></li>
-<li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100" href="app-user-view.html">
-<div class="d-flex align-items-center">
-<div class="avatar mr-75"><img src="app-assets/images/portrait/small/avatar-s-14.jpg" alt="png" height="32"></div>
-<div class="search-data">
-<p class="search-data-title mb-0">Milena Gibson</p><small class="text-muted">Digital Marketing Manager</small>
-</div>
-</div>
-</a></li>
-<li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100" href="app-user-view.html">
-<div class="d-flex align-items-center">
-<div class="avatar mr-75"><img src="app-assets/images/portrait/small/avatar-s-6.jpg" alt="png" height="32"></div>
-<div class="search-data">
-<p class="search-data-title mb-0">Anna Strong</p><small class="text-muted">Web Designer</small>
-</div>
-</div>
-</a></li>
-</ul>
-<ul class="main-search-list-defaultlist-other-list d-none">
-<li class="auto-suggestion justify-content-between"><a class="d-flex align-items-center justify-content-between w-100 py-50">
-<div class="d-flex justify-content-start"><span class="mr-75" data-feather="alert-circle"></span><span>No results found.</span></div>
-</a></li>
-</ul>
-<!-- END: Header-->
-
-
-<!-- BEGIN: Main Menu-->
-<div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
-<div class="navbar-header">
-<ul class="nav navbar-nav flex-row">
-<li class="nav-item mr-auto"><a class="navbar-brand" href="index.html">
-  
-     <span class="brand-logo">
-        <img src="app-assets/images/logo/logo.png" >
-</span> 
-<h2 class="brand-text">Bucchi's</h2>
-</a></li>
-<li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
-</ul>
-</div>
-<div class="shadow-bottom"></div>
-<div class="main-menu-content">
-<ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-<li class=" nav-item"><a class="d-flex align-items-center" href="dashboard.html"><i data-feather="home" style="color:  #6610F2;"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboard</span></a></li>
-<li class=" navigation-header"><span data-i18n="Apps &amp; Pages">Apps &amp; Pages</span><i data-feather="more-horizontal"></i>
-</li>
-<li class=" nav-item"><a class="d-flex align-items-center" href="create.html"><i class="fa fa-cart-plus" style="color:  #6610F2" aria-hidden="true"></i><span class="menu-title text-truncate" data-i18n="Email">Create Order</span></a>
-</li>
-<li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="fa fa-cart-arrow-down" style="color:  #6610F2" aria-hidden="true"></i><span class="menu-title text-truncate" data-i18n="Email">Update Order</span></a>
-</li>
-<li class=" nav-item"><a class="d-flex align-items-center" href="view.html"><i class="fa fa-shopping-cart" style="color:  #6610F2" aria-hidden="true"></i><span class="menu-title text-truncate" data-i18n="Email">View Order</span></a>
-</li>
-<li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="fa fa-search" style="color:  #6610F2" aria-hidden="true"></i><span class="menu-title text-truncate" data-i18n="Email">Search Order</span></a>
-</li>
-
-
-</li>
-
-
-
-
-</ul>
-</div>
-</div>
-<div class="app-content content ">
-    <div class="content-overlay"></div>
-    <div class="header-navbar-shadow"></div>
-    <div class="content-wrapper">
-    <div class="content-header row">
-    </div>
-    <div class="content-body">
-
-        <div style="background-color: white;">
-            <h1> <strong> Create New </strong> Order</h1>
-            <div id="multi-step-form-container">
-                <!-- Form Steps / Progress Bar -->
-                <ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0">
-                    <!-- Step 1 -->
-                    <li class="form-stepper-active text-center form-stepper-list" step="1">
-                        <a class="mx-2">
-                            <span class="form-stepper-circle">
-                                <span>1</span>
-                            </span>
-                            <div class="label">Client Details</div>
+                            <span class="avatar"><img class="round"
+                                    src="app-assets/images/portrait/small/avatar-s-11.jpg" alt="avatar" height="40"
+                                    width="40"><span class="avatar-status-online"></span></span>
+                            <div class="user-nav d-sm-flex d-none"><span class="user-name font-weight-bolder">John
+                                    Doe</span><span class="user-status">Admin</span></div>
                         </a>
-                    </li>
-                    <!-- Step 2 -->
-                    <li class="form-stepper-unfinished text-center form-stepper-list" step="2">
-                        <a class="mx-2">
-                            <span class="form-stepper-circle text-muted">
-                                <span>2</span>
-                            </span>
-                            <div class="label text-muted">Order Details</div>
-                        </a>
-                    </li>
-                    <!-- Step 3 -->
-                    <li class="form-stepper-unfinished text-center form-stepper-list" step="3">
-                        <a class="mx-2">
-                            <span class="form-stepper-circle text-muted">
-                                <span>3</span>
-                            </span>
-                            <div class="label text-muted">Outfit Details</div>
-                        </a>
-                    </li>
-                    <!-- Step 4 -->
-                    <li class="form-stepper-unfinished text-center form-stepper-list" step="4">
-                        <a class="mx-2">
-                            <span class="form-stepper-circle text-muted">
-                                <span>4</span>
-                            </span>
-                            <div class="label text-muted">Overview</div>
-                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user"><a
+                                class="dropdown-item" href="page-profile.html"><i class="mr-50" data-feather="user"></i>
+                                Profile</a><a class="dropdown-item" href="app-email.html"><i class="mr-50"
+                                    data-feather="mail"></i> Inbox</a><a class="dropdown-item" href="app-todo.html"><i
+                                    class="mr-50" data-feather="check-square"></i> Task</a><a class="dropdown-item"
+                                href="app-chat.html"><i class="mr-50" data-feather="message-square"></i> Chats</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item"
+                                href="page-account-settings.html"><i class="mr-50" data-feather="settings"></i>
+                                Settings</a><a class="dropdown-item" href="page-pricing.html"><i class="mr-50"
+                                    data-feather="credit-card"></i> Pricing</a><a class="dropdown-item"
+                                href="page-faq.html"><i class="mr-50" data-feather="help-circle"></i> FAQ</a><a
+                                class="dropdown-item" href="page-auth-login-v2.html"><i class="mr-50"
+                                    data-feather="power"></i> Logout</a>
+                        </div>
                     </li>
                 </ul>
-                <!-- Step Wise Form Content -->
-                <form id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data" method="POST">
-                    <!-- Step 1 Content -->
-                    <section id="step-1" class="form-step">
-                        <h2 class="font-normal">Client Details</h2>
-                        <!-- Step 1 input fields -->
-                        <div class="mt-3 offset-3">
-                            <div class="form-group">
-                            
-                                <label class="col-md-12  h5  control-label" for="product_description">Select Client</label>
-                        
-                                <div class="col-md-9">
-                        
-                                    <select class="form-control" id="client_select" name="client_select" required>
-                        
-                                        <option selected disabled >Select Any Client</option>
-                                        <option value="John">John</option>
-                                        <option value="Morder">Morder</option>
-                                        <option value="Jack">Jack</option>
-                                        <option value="Nick">Nick</option>
-                                        <option value="..other..">Add New Client</option>
-                                    </select>
-                                
-                                </div>
-                                </div>
-                                <br>
-                            <div class="form-group d-none" id="client_new">
-            
-                                <label class="col-md-12 h5 control-label" for="client_name">Client Name</label>
-                            
-                                <div class="col-md-9">
-                            
-                                <input type="text" id="client_name"  value="" name="client_name" class="form-control" placeholder="Enter Client name.." required>
-                            
-                                
-                            
-                                </div>
-                            
-                                </div>
-                
-                                    <br>
-                
+            </div>
+            <ul class="nav navbar-nav align-items-center ml-auto">
+
+            </ul>
+        </div>
+    </nav>
+    <ul class="main-search-list-defaultlist d-none">
+        <li class="d-flex align-items-center"><a href="javascript:void(0);">
+                <h6 class="section-label mt-75 mb-0">Files</h6>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="mr-75"><img src="app-assets/images/icons/xls.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Two new item submitted</p><small class="text-muted">Marketing
+                            Manager</small>
+                    </div>
+                </div><small class="search-data-size mr-50 text-muted">&apos;17kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="mr-75"><img src="app-assets/images/icons/jpg.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">52 JPG file Generated</p><small class="text-muted">FontEnd
+                            Developer</small>
+                    </div>
+                </div><small class="search-data-size mr-50 text-muted">&apos;11kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="mr-75"><img src="app-assets/images/icons/pdf.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">25 PDF File Uploaded</p><small class="text-muted">Digital
+                            Marketing Manager</small>
+                    </div>
+                </div><small class="search-data-size mr-50 text-muted">&apos;150kb</small>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                href="app-file-manager.html">
+                <div class="d-flex">
+                    <div class="mr-75"><img src="app-assets/images/icons/doc.png" alt="png" height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Anna_Strong.doc</p><small class="text-muted">Web
+                            Designer</small>
+                    </div>
+                </div><small class="search-data-size mr-50 text-muted">&apos;256kb</small>
+            </a></li>
+        <li class="d-flex align-items-center"><a href="javascript:void(0);">
+                <h6 class="section-label mt-75 mb-0">Members</h6>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar mr-75"><img src="app-assets/images/portrait/small/avatar-s-8.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">John Doe</p><small class="text-muted">UI designer</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar mr-75"><img src="app-assets/images/portrait/small/avatar-s-1.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Michal Clark</p><small class="text-muted">FontEnd
+                            Developer</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar mr-75"><img src="app-assets/images/portrait/small/avatar-s-14.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Milena Gibson</p><small class="text-muted">Digital Marketing
+                            Manager</small>
+                    </div>
+                </div>
+            </a></li>
+        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                href="app-user-view.html">
+                <div class="d-flex align-items-center">
+                    <div class="avatar mr-75"><img src="app-assets/images/portrait/small/avatar-s-6.jpg" alt="png"
+                            height="32"></div>
+                    <div class="search-data">
+                        <p class="search-data-title mb-0">Anna Strong</p><small class="text-muted">Web Designer</small>
+                    </div>
+                </div>
+            </a></li>
+    </ul>
+    <ul class="main-search-list-defaultlist-other-list d-none">
+        <li class="auto-suggestion justify-content-between"><a
+                class="d-flex align-items-center justify-content-between w-100 py-50">
+                <div class="d-flex justify-content-start"><span class="mr-75"
+                        data-feather="alert-circle"></span><span>No results found.</span></div>
+            </a></li>
+    </ul>
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html">
+
+                        <span class="brand-logo">
+                            <img src="app-assets/images/logo/logo.png">
+                        </span>
+                        <h2 class="brand-text">Bucchi's</h2>
+                    </a></li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                            class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i
+                            class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary"
+                            data-feather="disc" data-ticon="disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class=" nav-item"><a class="d-flex align-items-center" href="dashboard.html"><i data-feather="home"
+                            style="color:  #6610F2;"></i><span class="menu-title text-truncate"
+                            data-i18n="Dashboards">Dashboard</span></a></li>
+                <li class=" navigation-header"><span data-i18n="Apps &amp; Pages">Apps &amp; Pages</span><i
+                        data-feather="more-horizontal"></i>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="create.html"><i class="fa fa-cart-plus"
+                            style="color:  #6610F2" aria-hidden="true"></i><span class="menu-title text-truncate"
+                            data-i18n="Email">Create Order</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="fa fa-cart-arrow-down"
+                            style="color:  #6610F2" aria-hidden="true"></i><span class="menu-title text-truncate"
+                            data-i18n="Email">Update Order</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="view.html"><i
+                            class="fa fa-shopping-cart" style="color:  #6610F2" aria-hidden="true"></i><span
+                            class="menu-title text-truncate" data-i18n="Email">View Order</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="fa fa-search"
+                            style="color:  #6610F2" aria-hidden="true"></i><span class="menu-title text-truncate"
+                            data-i18n="Email">Search Order</span></a>
+                </li>
+
+
+                </li>
+
+
+
+
+            </ul>
+        </div>
+    </div>
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+
+                <div style="background-color: white;">
+                    <h1> <strong> Create New </strong> Order</h1>
+                    <div id="multi-step-form-container">
+                        <!-- Form Steps / Progress Bar -->
+                        <ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0">
+                            <!-- Step 1 -->
+                            <li class="form-stepper-active text-center form-stepper-list" step="1">
+                                <a class="mx-2">
+                                    <span class="form-stepper-circle">
+                                        <span>1</span>
+                                    </span>
+                                    <div class="label">Client Details</div>
+                                </a>
+                            </li>
+                            <!-- Step 2 -->
+                            <li class="form-stepper-unfinished text-center form-stepper-list" step="2">
+                                <a class="mx-2">
+                                    <span class="form-stepper-circle text-muted">
+                                        <span>2</span>
+                                    </span>
+                                    <div class="label text-muted">Order Details</div>
+                                </a>
+                            </li>
+                            <!-- Step 3 -->
+                            <li class="form-stepper-unfinished text-center form-stepper-list" step="3">
+                                <a class="mx-2">
+                                    <span class="form-stepper-circle text-muted">
+                                        <span>3</span>
+                                    </span>
+                                    <div class="label text-muted">Outfit Details</div>
+                                </a>
+                            </li>
+                            <!-- Step 4 -->
+                            <li class="form-stepper-unfinished text-center form-stepper-list" step="4">
+                                <a class="mx-2">
+                                    <span class="form-stepper-circle text-muted">
+                                        <span>4</span>
+                                    </span>
+                                    <div class="label text-muted">Overview</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Step Wise Form Content -->
+                        <form id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data"
+                            method="POST">
+                            <!-- Step 1 Content -->
+                            <section id="step-1" class="form-step">
+                                <h2 class="font-normal">Client Details</h2>
+                                <!-- Step 1 input fields -->
+                                <div class="mt-3 offset-3">
                                     <div class="form-group">
-                            
-                                        <label class="col-md-12 h5 control-label" for="client_name">Client Contact No</label>
-                                    
+
+                                        <label class="col-md-12  h5  control-label" for="product_description">Select
+                                            Client</label>
+
                                         <div class="col-md-9">
-                                    
-                                        <input type="number" id="client_contact"  value="" name="client_contact" class="form-control" placeholder="Enter Client Contact Number.." required>
-                                    
-                                       
-                                    
+
+                                            <select class="form-control" id="client_select" name="client_select"
+                                                required>
+
+                                                <option selected disabled>Select Any Client</option>
+                                                <option value="John">John</option>
+                                                <option value="Morder">Morder</option>
+                                                <option value="Jack">Jack</option>
+                                                <option value="Nick">Nick</option>
+                                                <option value="..other..">Add New Client</option>
+                                            </select>
+
                                         </div>
-                                    
+                                    </div>
+                                    <br>
+                                    <div class="form-group d-none" id="client_new">
+
+                                        <label class="col-md-12 h5 control-label" for="client_name">Client Name</label>
+
+                                        <div class="col-md-9">
+
+                                            <input type="text" id="client_name" value="" name="client_name"
+                                                class="form-control" placeholder="Enter Client name.." required>
+
+
+
                                         </div>
-                                        <br>
-                                        <div class="form-group">
-                            
+
+                                    </div>
+
+                                    <br>
+
+                                    <div class="form-group">
+
+                                        <label class="col-md-12 h5 control-label" for="client_name">Client Contact
+                                            No</label>
+
+                                        <div class="col-md-9">
+
+                                            <input type="number" id="client_contact" value="" name="client_contact"
+                                                class="form-control" placeholder="Enter Client Contact Number.."
+                                                required>
+
+
+
+                                        </div>
+
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+
                                         <label class="col-md-12 h5 control-label" for="client_name">Client Email</label>
-                                    
+
                                         <div class="col-md-9">
-                                    
-                                        <input type="email" id="client_email"  value="" name="client_contact" class="form-control" placeholder="Enter Client Email Address.." required>
-                                    
-                                        
-                                    
+
+                                            <input type="email" id="client_email" value="" name="client_contact"
+                                                class="form-control" placeholder="Enter Client Email Address.."
+                                                required>
+
+
+
                                         </div>
-                                    
+
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="button btn-navigate-form-step" type="button"
+                                        step_number="2">Next</button>
+                                </div>
+                            </section>
+                            <!-- Step 2 Content, default hidden on page load. -->
+                            <section id="step-2" class="form-step d-none">
+                                <h2 class="font-normal">Order Details</h2>
+                                <!-- Step 2 input fields -->
+                                <div class="mt-3 offset-3">
+                                    <div class="form-group">
+
+                                        <label class="col-md-12 h5 control-label" for="order_delivery">Delivery</label>
+
+                                        <div class="col-md-9">
+
+                                            <input type="text" id="order_delivery" value="" name="delivery"
+                                                class="form-control" placeholder="Enter Delivery" required>
+
+
+
                                         </div>
-                        </div>
-                        <div class="mt-3">
-                            <button class="button btn-navigate-form-step" type="button" step_number="2">Next</button>
-                        </div>
-                    </section>
-                    <!-- Step 2 Content, default hidden on page load. -->
-                    <section id="step-2" class="form-step d-none">
-                        <h2 class="font-normal">Order Details</h2>
-                        <!-- Step 2 input fields -->
-                        <div class="mt-3 offset-3">
-                            <div class="form-group">
-                            
-                                <label class="col-md-12 h5 control-label" for="order_delivery">Delivery</label>
 
-                                <div class="col-md-9">
-                            
-                                    <input type="text" id="order_delivery"  value="" name="delivery" class="form-control" placeholder="Enter Delivery" required>
-                                
-                                    
-                            
-                                </div>
-                            
-                            </div>
-                            <br>
-                            <div class="form-group">
-                            
-                                <label class="col-md-12 h5 control-label" for="order_date">Delivery Date</label>
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
 
-                                <div class="col-md-9">
-                            
-                                    <input type="date" id="order_date"  value="" name="delivery_date" class="form-control" placeholder="Enter Delivery Date" required>
-                                
-                                    
-                            
-                                </div>
-                            
-                            </div>
-                            
-                            <br>
+                                        <label class="col-md-12 h5 control-label" for="order_date">Delivery Date</label>
 
-                            <div class="form-group">
-                            
-                                <label class="col-md-12  h5  control-label" for="product_description">Select Currency</label>
-                        
-                                <div class="col-md-9">
-                        
-                                    <select class="form-control" id="currency_select" name="" required>
-                        
-                                        <option selected disabled >Select Currency</option>
-                                        <option value="PKR">PKR</option>
-                                        <option value="USD">USD</option>
-                                        <option value="GBP">GBP</option>
-                                        <option value="EUR">EUR</option>
-                                        <option value="CAD">CAD</option>
-                                        <option value="AUD">AUD</option>
-                                        <option value="..other..">Add Other Currency</option>
-                                    </select>
-                                
-                                </div>
-                                </div>
-                                <br>
-                            <div class="form-group d-none" id="currency_div">
-                            
-                                <label class="col-md-12 h5 control-label" for="order_currency ">Enter Currency</label>
+                                        <div class="col-md-9">
 
-                                <div class="col-md-9">
-                            
-                                    <input type="text" id="order_currency"  value="" name="order_currency" class="form-control" placeholder="Enter Currency Name" required>
-                                
-                                    
-                            
+                                            <input type="date" id="order_date" value="" name="delivery_date"
+                                                class="form-control" placeholder="Enter Delivery Date" required>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <br>
+
+                                    <div class="form-group">
+
+                                        <label class="col-md-12  h5  control-label" for="product_description">Select
+                                            Currency</label>
+
+                                        <div class="col-md-9">
+
+                                            <select class="form-control" id="currency_select" name="" required>
+
+                                                <option selected disabled>Select Currency</option>
+                                                <option value="PKR">PKR</option>
+                                                <option value="USD">USD</option>
+                                                <option value="GBP">GBP</option>
+                                                <option value="EUR">EUR</option>
+                                                <option value="CAD">CAD</option>
+                                                <option value="AUD">AUD</option>
+                                                <option value="..other..">Add Other Currency</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-group d-none" id="currency_div">
+
+                                        <label class="col-md-12 h5 control-label" for="order_currency ">Enter
+                                            Currency</label>
+
+                                        <div class="col-md-9">
+
+                                            <input type="text" id="order_currency" value="" name="order_currency"
+                                                class="form-control" placeholder="Enter Currency Name" required>
+
+
+
+                                        </div>
+
+                                    </div>
                                 </div>
-                            
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <button class="button btn-navigate-form-step" type="button" step_number="1">Prev</button>
-                            <button class="button btn-navigate-form-step" type="button" step_number="3">Next</button>
-                        </div>
-                    </section>
-                    <!-- Step 3 Content, default hidden on page load. -->
-                    <section id="step-3" class="form-step d-none">
-                        <h2 class="font-normal">Outfit Details</h2>
-                        <!-- Step 3 input fields -->
-                        <div class="mt-3">
-                            
-                            <div id="block-container">
-                                <div class="block">
-                                  <input type="number" class="input-field" placeholder="Enter Item #">
-                                  <input type="text" class="input-field" placeholder="Enter Outfit name..">
-                                  <input type="text" class="input-field" placeholder="Enter Outfit Description..">
-                                  <input type="number" class="input-field" placeholder="Enter Price..">
-                                  <input type="number" class="input-field" placeholder="Enter Hours..">
-                                  <div class="button-block">
-                                    <button class="move-up">Move Up</button>
-                                    <button class="move-down">Move Down</button>
-                                    <button class="delete">Delete Outfit</button>
-                                  </div>
+                                <div class="mt-3">
+                                    <button class="button btn-navigate-form-step" type="button"
+                                        step_number="1">Prev</button>
+                                    <button class="button btn-navigate-form-step" type="button"
+                                        step_number="3">Next</button>
                                 </div>
-                              </div>
-                              <button class="button" id="add-block">Add Outfit</button>
-                        </div>
-                        <div class="mt-3">
-                            <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
-                            <button class="button btn-navigate-form-step" type="button" step_number="4">Next</button>
-                        </div>
-                    </section>
-                    <!-- Step 4 Content, default hidden on page load. -->
-                    <section id="step-4" class="form-step d-none">
-                        <h2 class="font-normal">Overview</h2>
-                        <!-- Step 3 input fields -->
-                        <div class="mt-3">
-                            Step 3 input fields goes here..
-                        </div>
-                        <div class="mt-3">
-                            <button class="button btn-navigate-form-step" type="button" step_number="3">Prev</button>
-                            <button class="button submit-btn" type="#">Save</button>
-                        </div>
-                    </section>
-                </form>
+                            </section>
+                            <!-- Step 3 Content, default hidden on page load. -->
+                            <section id="step-3" class="form-step d-none">
+                                <h2 class="font-normal">Outfit Details</h2>
+                                <!-- Step 3 input fields -->
+                                <div class="mt-3">
+
+                                    <div id="block-container">
+                                        <div class="block">
+                                            <input type="number" class="input-field" placeholder="Enter Item #">
+
+                                            <input type="text" class="input-field" placeholder="Enter Outfit name..">
+                                            <input type="text" class="input-field"
+                                                placeholder="Enter Outfit Description..">
+                                            <input type="number" class="input-field" placeholder="Enter Price..">
+                                            <input type="number" class="input-field" placeholder="Enter Hours..">
+                                            <div class="button-block">
+                                                <button class="move-up">
+                                                    Move Up</button>
+                                                <button class="move-down">Move Down</button>
+                                                <button class="delete">Delete Outfit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="button" id="add-block">Add Outfit</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="button btn-navigate-form-step" type="button"
+                                        step_number="2">Prev</button>
+                                    <button class="button btn-navigate-form-step" type="button"
+                                        step_number="4">Next</button>
+                                </div>
+                            </section>
+                            <!-- Step 4 Content, default hidden on page load. -->
+                            <section id="step-4" class="form-step d-none">
+                                <h2 class="font-normal">Overview</h2>
+                                <!-- Step 3 input fields -->
+                                <div class="mt-3">
+                                    Step 3 input fields goes here..
+                                </div>
+                                <div class="mt-3">
+                                    <button class="button btn-navigate-form-step" type="button"
+                                        step_number="3">Prev</button>
+                                    <button class="button submit-btn" type="#">Save</button>
+                                </div>
+                            </section>
+                        </form>
+                    </div>
+                </div>
+
+
             </div>
         </div>
-
-
     </div>
-</div>
-</div>
 
 
-<div class="sidenav-overlay"></div>
-<div class="drag-target"></div>
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
 
-<!-- BEGIN: Footer-->
-<footer class="footer footer-static footer-light">
-<p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2020 Bucchi's<span class="d-none d-sm-inline-block">, All rights Reserved</span></span></p>
-</footer>
-<button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
-<!-- END: Footer-->
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light">
+        <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2020
+                Bucchi's<span class="d-none d-sm-inline-block">, All rights Reserved</span></span></p>
+    </footer>
+    <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+    <!-- END: Footer-->
 
 
-<!-- BEGIN: Vendor JS-->
-<script src="app-assets/vendors/js/vendors.min.js"></script>
-<!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Vendor JS-->
+    <script src="app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
 
-<!-- BEGIN: Page Vendor JS-->
-<script src="app-assets/vendors/js/charts/apexcharts.min.js"></script>
-<script src="app-assets/vendors/js/extensions/toastr.min.js"></script>
-<!-- END: Page Vendor JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="app-assets/vendors/js/charts/apexcharts.min.js"></script>
+    <script src="app-assets/vendors/js/extensions/toastr.min.js"></script>
+    <!-- END: Page Vendor JS-->
 
-<!-- BEGIN: Theme JS-->
-<script src="app-assets/js/core/app-menu.js"></script>
-<script src="app-assets/js/core/app.js"></script>
-<!-- END: Theme JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="app-assets/js/core/app-menu.js"></script>
+    <script src="app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
 
-<!-- BEGIN: Page JS-->
-<script src="app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
-<!-- END: Page JS-->
+    <!-- BEGIN: Page JS-->
+    <script src="app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
+    <!-- END: Page JS-->
 
-<script>
-$(window).on('load', function() {
-if (feather) {
-feather.replace({
-width: 14,
-height: 14
-});
-}
-})
-</script>
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
 
-<script>
-    setTimeout(function () {
-        toastr['success'](
-        'In Admin dashboard',
-        '👋 Welcome John Doe!',
-        {
-            closeButton: true,
-            tapToDismiss: false
-        }
-        );
-    }, 2000);
-</script>
-<script>
-    $('#client_select').change(function(){
-        var client = $('#client_select').val()
-        if(client === '..other..')
-        {
-            $('#client_name').val('');
-            $('#client_new').removeClass('d-none');
-            
-        }
-        else
-        {
-            $('#client_name').val(client)
-        }
-    })
-    
-    $('#currency_select').change(function(){
-        var currency = $('#currency_select').val();
-        if(currency === '..other..')
-        {
-            $('#order_currency').val('');
-            $('#currency_div').removeClass('d-none');
-            
-        }
-        else
-        {
-            $('#order_currency').val(currency);
-        }
-    })
+    <script>
+        setTimeout(function () {
+            toastr['success'](
+                'In Admin dashboard',
+                '👋 Welcome John Doe!',
+                {
+                    closeButton: true,
+                    tapToDismiss: false
+                }
+            );
+        }, 2000);
+    </script>
+    <script>
+        $('#client_select').change(function () {
+            var client = $('#client_select').val()
+            if (client === '..other..') {
+                $('#client_name').val('');
+                $('#client_new').removeClass('d-none');
 
-</script>
+            }
+            else {
+                $('#client_name').val(client)
+            }
+        })
 
-<script src="app-assets/js/multi-form.js"></script>
+        $('#currency_select').change(function () {
+            var currency = $('#currency_select').val();
+            if (currency === '..other..') {
+                $('#order_currency').val('');
+                $('#currency_div').removeClass('d-none');
 
-<script src="app-assets/js/form.js"></script>
+            }
+            else {
+                $('#order_currency').val(currency);
+            }
+        })
+
+    </script>
+
+    <script src="app-assets/js/multi-form.js"></script>
+
+    <script src="app-assets/js/form.js"></script>
 
 </body>
 <!-- END: Body-->
 
 </html>
-        
